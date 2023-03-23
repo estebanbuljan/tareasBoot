@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quién se presenta hoy?</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Hoy se presenta <span id="spanText"></span></h1>
+    <div id="buttonPresent" class="falseButton buttonInactive" onclick="chooseCharacter()">Presentar</div>
+    <div id="cajas">
+        <div id="mario" class="buttonCurtain" onclick="showCharacter('mario')"></div>
+        <div id="luigi" class="buttonCurtain" onclick="showCharacter('luigi')"></div>
+        <div id="bowser" class="buttonCurtain" onclick="showCharacter('bowser')"></div>
+        <div id="peach" class="buttonCurtain" onclick="showCharacter('peach')"></div>
+        <div id="yoshi" class="buttonCurtain" onclick="showCharacter('yoshi')"></div>
+        <div id="toad" class="buttonCurtain" onclick="showCharacter('toad')"></div>
+        <div id="toadette" class="buttonCurtain" onclick="showCharacter('toadette')"></div>
+        <div id="daisy" class="buttonCurtain" onclick="showCharacter('daisy')"></div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    font-family: "Verdana", "Arial", sans-serif;
+    background-color: #EDECE9;
+    color: #896656;
+
+}
+
+
+
+.ancla{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+img{
+    width: 100%;
+}
+
+.ln{
+    color: #47B2CB;
+}
+
+.pd{
+    color: #EF4B51;
+}
+
+h3{
+    background-color: #775548;
+    color: #E1D4CE;
+}
+
+.titulocuatro{
+    color: #D4B144;
+}
+
+h1{
+    color: #775548;
+}
+
+a{
+    color:#EF6E26;
+}
+

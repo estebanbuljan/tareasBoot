@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../imagenes/wallpapersden.com_macos-12-monterey-stock-dark_1920x1080.jpg');
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.divv{
+    display: flex;
+    justify-content: space-around ;
+}
+.divuno {
+    border-style: groove;
+    border-radius: 20px;
+    border-color: #250875;
+    background-color: rgb(21, 160, 3);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+h1 {
+    color:rgb(21, 160, 3);
+    font-family: 'Pacifico', cursive; 
+    font-size: 120px;
+    font-weight: normal;
+    margin-bottom: 2%;
+    text-decoration: underline;
+
+}
+
+
+h2 {
+    color: rgb(45, 3, 83);
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 20px;
+    border-bottom-style: solid;
+}
+
+
+
+.botonUno, .botonDos{
+    border-style: ridge;
+    width: 100;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    background-color:rgb(21, 160, 3);
+    border-width: 10px;
+    border-color:  rgb(45, 3, 83);
+    font: 2em sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.botonUno:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.botonDos:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+
+input{
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+
+}
+
+.divBoton {
+    display: flex;
+    justify-content: space-around;
+}

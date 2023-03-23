@@ -1,0 +1,32 @@
+
+body { background-color: #273238;margin:0; }
+
+h1 { font-family: 'Impact'; text-align: center; background-color: aliceblue; font-size: 64px; margin-left: 10px; margin-right: 10px; margin-top: 60px; color: #698492; }
+
+p {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:#CFCFC6; margin-left: 10px;margin-right: 10px;}
+
+h2 {font-family: Arial, Gadget, sans-serif; font-size: 40px; margin-left: 10px; font-weight: 900; }
+
+
+img {border-style: solid; border-width: 6px; border-color: beige; margin-left: 70px; }
+
+.titulouno {color: #E6CBC0;}
+
+.imagenuno {border-color:#E6CBC0 ;}
+
+.titulodos {color: #A1C1CB;}
+
+.imagendos {border-color: #A1C1CB;}
+
+.titulotres {color: #BCBDBF;}
+
+.imagentres {border-color: #BCBDBF;}
+
+.titulocuatro {color: #8D94A0;}
+
+.imagencuatro {border-color: #8D94A0;}
+
+.titulocinco {color:#B2B2AA;}
+
+.imagencinco {border-color:#B2B2AA;}
+
